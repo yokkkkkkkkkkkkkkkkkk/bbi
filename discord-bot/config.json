@@ -1,0 +1,58 @@
+{
+  "embedColor": "#5865F2",
+  "successColor": "#57F287",
+  "errorColor": "#ED4245",
+  "warnColor": "#FEE75C",
+
+  "leveling": {
+    "xpPerMessage": { "min": 15, "max": 25 },
+    "xpCooldownSeconds": 60,
+    "xpFormula": "5 * (level^2) + 50 * level + 100"
+  },
+
+  "economy": {
+    "currencyName": "Koin",
+    "currencySymbol": "🪙",
+    "dailyAmount": 500,
+    "workMin": 100,
+    "workMax": 400,
+    "workCooldownHours": 1,
+    "dailyCooldownHours": 24
+  },
+
+  "moderation": {
+    "maxWarningsBeforeAutoMute": 3,
+    "autoMuteDurationMinutes": 60
+  },
+
+  "ticket": {
+    "categoryName": "TICKETS",
+    "transcriptOnClose": true
+  },
+
+  "antispam": {
+    "maxMessages": 5,
+    "intervalSeconds": 5,
+    "maxDuplicates": 3,
+    "maxMentions": 5,
+    "muteMinutes": 10
+  },
+
+  "raid": {
+    "joinThreshold": 6,
+    "intervalSeconds": 15,
+    "lockdownMinutes": 10,
+    "newAccountDays": 7
+  },
+
+  "defaultBadwords": [
+    "anjing", "bangsat", "kontol", "memek", "goblok", "tolol", "bego",
+    "asu", "jancok", "keparat", "babi", "monyet",
+    "fuck", "shit", "bitch", "asshole", "bastard", "dick", "cunt"
+  ],
+
+  "stats": {
+    "updateIntervalMinutes": 10,
+    "categoryName": "📊 SERVER STATS"
+  }
+}
